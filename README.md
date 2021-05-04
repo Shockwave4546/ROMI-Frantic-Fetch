@@ -1,16 +1,5 @@
-# Romi Trajectory Follower
+# ROMI - Frantic Fetch Challenge Code
 
-## Description
-This example showcases how to use the WPILib `RamseteCommand` to make your Romi follow a predefined trajectory. These trajectories can be hand crafted, or generated using a tool like PathWeaver.
+Based on the example Ramsette Command/Trajectory code.  Attempted to try to make the tracjectory driving to work but not enough time to dial down the tunings and get things to actually work.
 
-Note that all the constants used here assume that characterization has been done using meters as units. Additionally, all coordinates/distances are specified in meters.
-
-## Additional Hardware Required
-None
-
-## Additional Configuration Required
-- Ensure that the gyro has been [calibrated using the web UI](https://docs.wpilib.org/en/stable/docs/romi-robot/web-ui.html#imu-calibration)
-- For best results, you should [run a characterization on your Romi](../romi-characterization) since there might be slight variations between Romis (due to assembly, mechanical difference, etc)
-
-## Additional Code Setup
-The trajectory can be modified by editing the `generateRamseteCommand` method in `RobotContainer.java`
+Drifty Gyro and lots of Slippages on the wheels on top of robot trends to drive to one side - motor differences and all that...
